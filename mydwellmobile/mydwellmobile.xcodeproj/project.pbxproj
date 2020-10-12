@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		730C3F17239E1BC00057C3C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C3F16239E1BC00057C3C5 /* AppDelegate.swift */; };
+		730C3F19239E1BC00057C3C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C3F18239E1BC00057C3C5 /* SceneDelegate.swift */; };
+		730C3F1B239E1BC00057C3C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C3F1A239E1BC00057C3C5 /* ViewController.swift */; };
+		730C3F1E239E1BC00057C3C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730C3F1C239E1BC00057C3C5 /* Main.storyboard */; };
+		730C3F20239E1BC30057C3C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730C3F1F239E1BC30057C3C5 /* Assets.xcassets */; };
+		730C3F23239E1BC30057C3C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730C3F21239E1BC30057C3C5 /* LaunchScreen.storyboard */; };
+		730C3F2B239E1C350057C3C5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C3F2A239E1C350057C3C5 /* SignUpViewController.swift */; };
+		730C3F2D239E1C520057C3C5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C3F2C239E1C520057C3C5 /* LoginViewController.swift */; };
+		730C3F2F239E1C600057C3C5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C3F2E239E1C600057C3C5 /* HomeViewController.swift */; };
+		739D3806239ED3B40036C824 /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739D3805239ED3B40036C824 /* MainNavViewController.swift */; };
+		739D3808239ED4920036C824 /* ChoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739D3807239ED4920036C824 /* ChoresViewController.swift */; };
+		739D380A239ED5C80036C824 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739D3809239ED5C80036C824 /* SettingsViewController.swift */; };
+		739D380C239ED5EC0036C824 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739D380B239ED5EC0036C824 /* SplitViewController.swift */; };
+		739D380E239ED5F80036C824 /* BillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739D380D239ED5F80036C824 /* BillsViewController.swift */; };
+		73A5888C239E2BE500BD59F6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A5888B239E2BE500BD59F6 /* Utilities.swift */; };
+		73A5888E239E309900BD59F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73A5888D239E309900BD59F6 /* GoogleService-Info.plist */; };
+		73D0FDF223A6D6F400248BE0 /* ChoresComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D0FDF123A6D6F400248BE0 /* ChoresComposeViewController.swift */; };
+		73E34C16239E3E8E005C91E5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E34C15239E3E8E005C91E5 /* Constants.swift */; };
+		B56F69A7E9B53B3F84C4D0A5 /* Pods_mydwellmobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A706E809C847E68E383E35E /* Pods_mydwellmobile.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A706E809C847E68E383E35E /* Pods_mydwellmobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mydwellmobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		730C3F13239E1BC00057C3C5 /* mydwellmobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mydwellmobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		730C3F16239E1BC00057C3C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		730C3F18239E1BC00057C3C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		730C3F1A239E1BC00057C3C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		730C3F1D239E1BC00057C3C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		730C3F1F239E1BC30057C3C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		730C3F22239E1BC30057C3C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		730C3F24239E1BC30057C3C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		730C3F2A239E1C350057C3C5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		730C3F2C239E1C520057C3C5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		730C3F2E239E1C600057C3C5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		739D3805239ED3B40036C824 /* MainNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavViewController.swift; sourceTree = "<group>"; };
+		739D3807239ED4920036C824 /* ChoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoresViewController.swift; sourceTree = "<group>"; };
+		739D3809239ED5C80036C824 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		739D380B239ED5EC0036C824 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		739D380D239ED5F80036C824 /* BillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsViewController.swift; sourceTree = "<group>"; };
+		73A5888B239E2BE500BD59F6 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		73A5888D239E309900BD59F6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		73D0FDF123A6D6F400248BE0 /* ChoresComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoresComposeViewController.swift; sourceTree = "<group>"; };
+		73E34C15239E3E8E005C91E5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7E8BABF99FC3964083149277 /* Pods-mydwellmobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mydwellmobile.debug.xcconfig"; path = "Target Support Files/Pods-mydwellmobile/Pods-mydwellmobile.debug.xcconfig"; sourceTree = "<group>"; };
+		EE148CA7A890DD3FE5D711A2 /* Pods-mydwellmobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mydwellmobile.release.xcconfig"; path = "Target Support Files/Pods-mydwellmobile/Pods-mydwellmobile.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		730C3F10239E1BC00057C3C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56F69A7E9B53B3F84C4D0A5 /* Pods_mydwellmobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BE52B1F6364967978DD6647 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E8BABF99FC3964083149277 /* Pods-mydwellmobile.debug.xcconfig */,
+				EE148CA7A890DD3FE5D711A2 /* Pods-mydwellmobile.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		730C3F0A239E1BC00057C3C5 = {
+			isa = PBXGroup;
+			children = (
+				730C3F15239E1BC00057C3C5 /* mydwellmobile */,
+				730C3F14239E1BC00057C3C5 /* Products */,
+				5BE52B1F6364967978DD6647 /* Pods */,
+				ABFD839187872C361C5CF225 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		730C3F14239E1BC00057C3C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				730C3F13239E1BC00057C3C5 /* mydwellmobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		730C3F15239E1BC00057C3C5 /* mydwellmobile */ = {
+			isa = PBXGroup;
+			children = (
+				730C3F16239E1BC00057C3C5 /* AppDelegate.swift */,
+				730C3F18239E1BC00057C3C5 /* SceneDelegate.swift */,
+				73A5888A239E2BC000BD59F6 /* Helpers */,
+				730C3F30239E1C6C0057C3C5 /* View Controllers */,
+				730C3F1C239E1BC00057C3C5 /* Main.storyboard */,
+				730C3F1F239E1BC30057C3C5 /* Assets.xcassets */,
+				730C3F21239E1BC30057C3C5 /* LaunchScreen.storyboard */,
+				73A5888D239E309900BD59F6 /* GoogleService-Info.plist */,
+				730C3F24239E1BC30057C3C5 /* Info.plist */,
+			);
+			path = mydwellmobile;
+			sourceTree = "<group>";
+		};
+		730C3F30239E1C6C0057C3C5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				739D3811239ED6420036C824 /* tabs */,
+				739D3810239ED6270036C824 /* onboarding_signup_login */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		739D3810239ED6270036C824 /* onboarding_signup_login */ = {
+			isa = PBXGroup;
+			children = (
+				730C3F1A239E1BC00057C3C5 /* ViewController.swift */,
+				730C3F2A239E1C350057C3C5 /* SignUpViewController.swift */,
+				730C3F2C239E1C520057C3C5 /* LoginViewController.swift */,
+			);
+			path = onboarding_signup_login;
+			sourceTree = "<group>";
+		};
+		739D3811239ED6420036C824 /* tabs */ = {
+			isa = PBXGroup;
+			children = (
+				739D3812239EE46E0036C824 /* chores */,
+				739D3805239ED3B40036C824 /* MainNavViewController.swift */,
+				730C3F2E239E1C600057C3C5 /* HomeViewController.swift */,
+				739D380B239ED5EC0036C824 /* SplitViewController.swift */,
+				739D380D239ED5F80036C824 /* BillsViewController.swift */,
+				739D3809239ED5C80036C824 /* SettingsViewController.swift */,
+			);
+			path = tabs;
+			sourceTree = "<group>";
+		};
+		739D3812239EE46E0036C824 /* chores */ = {
+			isa = PBXGroup;
+			children = (
+				739D3807239ED4920036C824 /* ChoresViewController.swift */,
+				73D0FDF123A6D6F400248BE0 /* ChoresComposeViewController.swift */,
+			);
+			path = chores;
+			sourceTree = "<group>";
+		};
+		73A5888A239E2BC000BD59F6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				73A5888B239E2BE500BD59F6 /* Utilities.swift */,
+				73E34C15239E3E8E005C91E5 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		ABFD839187872C361C5CF225 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A706E809C847E68E383E35E /* Pods_mydwellmobile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		730C3F12239E1BC00057C3C5 /* mydwellmobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730C3F27239E1BC30057C3C5 /* Build configuration list for PBXNativeTarget "mydwellmobile" */;
+			buildPhases = (
+				3E9E2481F715098046EB5186 /* [CP] Check Pods Manifest.lock */,
+				730C3F0F239E1BC00057C3C5 /* Sources */,
+				730C3F10239E1BC00057C3C5 /* Frameworks */,
+				730C3F11239E1BC00057C3C5 /* Resources */,
+				927308A534A30BF41E033240 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mydwellmobile;
+			productName = mydwellmobile;
+			productReference = 730C3F13239E1BC00057C3C5 /* mydwellmobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		730C3F0B239E1BC00057C3C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Brian Clow";
+				TargetAttributes = {
+					730C3F12239E1BC00057C3C5 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 730C3F0E239E1BC00057C3C5 /* Build configuration list for PBXProject "mydwellmobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 730C3F0A239E1BC00057C3C5;
+			productRefGroup = 730C3F14239E1BC00057C3C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				730C3F12239E1BC00057C3C5 /* mydwellmobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		730C3F11239E1BC00057C3C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730C3F23239E1BC30057C3C5 /* LaunchScreen.storyboard in Resources */,
+				73A5888E239E309900BD59F6 /* GoogleService-Info.plist in Resources */,
+				730C3F20239E1BC30057C3C5 /* Assets.xcassets in Resources */,
+				730C3F1E239E1BC00057C3C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E9E2481F715098046EB5186 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mydwellmobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		927308A534A30BF41E033240 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mydwellmobile/Pods-mydwellmobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mydwellmobile/Pods-mydwellmobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mydwellmobile/Pods-mydwellmobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		730C3F0F239E1BC00057C3C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739D380E239ED5F80036C824 /* BillsViewController.swift in Sources */,
+				730C3F1B239E1BC00057C3C5 /* ViewController.swift in Sources */,
+				730C3F17239E1BC00057C3C5 /* AppDelegate.swift in Sources */,
+				739D380A239ED5C80036C824 /* SettingsViewController.swift in Sources */,
+				73A5888C239E2BE500BD59F6 /* Utilities.swift in Sources */,
+				730C3F2B239E1C350057C3C5 /* SignUpViewController.swift in Sources */,
+				739D3806239ED3B40036C824 /* MainNavViewController.swift in Sources */,
+				730C3F2D239E1C520057C3C5 /* LoginViewController.swift in Sources */,
+				739D3808239ED4920036C824 /* ChoresViewController.swift in Sources */,
+				730C3F19239E1BC00057C3C5 /* SceneDelegate.swift in Sources */,
+				730C3F2F239E1C600057C3C5 /* HomeViewController.swift in Sources */,
+				73D0FDF223A6D6F400248BE0 /* ChoresComposeViewController.swift in Sources */,
+				73E34C16239E3E8E005C91E5 /* Constants.swift in Sources */,
+				739D380C239ED5EC0036C824 /* SplitViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		730C3F1C239E1BC00057C3C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				730C3F1D239E1BC00057C3C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		730C3F21239E1BC30057C3C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				730C3F22239E1BC30057C3C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		730C3F25239E1BC30057C3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		730C3F26239E1BC30057C3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		730C3F28239E1BC30057C3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E8BABF99FC3964083149277 /* Pods-mydwellmobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A98HVA57P;
+				INFOPLIST_FILE = mydwellmobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianrclow.mydwellmobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		730C3F29239E1BC30057C3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE148CA7A890DD3FE5D711A2 /* Pods-mydwellmobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A98HVA57P;
+				INFOPLIST_FILE = mydwellmobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianrclow.mydwellmobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		730C3F0E239E1BC00057C3C5 /* Build configuration list for PBXProject "mydwellmobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730C3F25239E1BC30057C3C5 /* Debug */,
+				730C3F26239E1BC30057C3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730C3F27239E1BC30057C3C5 /* Build configuration list for PBXNativeTarget "mydwellmobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730C3F28239E1BC30057C3C5 /* Debug */,
+				730C3F29239E1BC30057C3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 730C3F0B239E1BC00057C3C5 /* Project object */;
+}
