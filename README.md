@@ -11,8 +11,8 @@ bring this idea to life in some ways.
 
 ## Landing Page Website
 
-This is the landing page website for the mobile app. This serves as a basic html,
-css, php and js site. It is currently hosted on heroku:
+This is the landing page website for the mobile app. This serves as a basic site with
+ placeholder screenshots and information. It is currently hosted on heroku:
 * https://mydwel.herokuapp.com
 
 
